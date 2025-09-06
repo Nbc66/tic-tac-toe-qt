@@ -1,0 +1,73 @@
+# ---- Build directories ----
+/out/
+/build/
+/bin/
+/lib/
+
+# ---- CMake ----
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+Makefile
+*.cmake
+
+# ---- Visual Studio / MSVC ----
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.opensdf
+*.sdf
+*.ipch
+*.obj
+*.pdb
+*.idb
+*.tlog
+*.log
+*.cache
+*.ilk
+*.aps
+*.ncb
+*.user
+*.VC.db
+*.VC.opendb
+
+# ---- Qt generated files ----
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+*_autogen/
+
+# ---- Executables ----
+*.exe
+*.dll
+*.so
+*.dylib
+*.app
+*.out
+
+# ---- Debug / Release folders ----
+Debug/
+Release/
+x64/
+x86/
+
+# ---- Other temporary ----
+*.tmp
+*.bak
+*.swp
+*.pyc
+*.pyo
+*.class
+
+# ---- IDEs ----
+.vscode/
+.idea/
+*.code-workspace
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+desktop.ini
